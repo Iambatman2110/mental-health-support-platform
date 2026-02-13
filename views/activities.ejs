@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">MINDHAVEN <span class="dot">.</span></h1>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/j">Health Topics</a></li>
+                <li><a href="/activities" class="active">Adventures</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Find Connection & Joy</h1>
+            <p>Engage in activities that uplift your spirit and meet people who understand.</p>
+        </div>
+    </header>
+
+    <section class="activities-section">
+        <div class="container">
+            <h2 class="section-title">Things You Can Do Today</h2>
+            <div class="activity-grid">
+                <div class="activity-card">
+                    <div class="activity-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="activity-content">
+                        <h3><i class="fas fa-hiking"></i> Nature Treks</h3>
+                        <p>Reconnect with nature. Gentle movement combined with fresh air to reset your mind.</p>
+                        <span class="difficulty-badge">Easy</span>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1513364776144-60967b0f800f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="activity-content">
+                        <h3><i class="fas fa-paint-brush"></i> Creative Flow</h3>
+                        <p>Express yourself without words. Painting, sketching, or coloring to find your inner calm.</p>
+                        <span class="difficulty-badge">Relaxing</span>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="activity-content">
+                        <h3><i class="fas fa-book-reader"></i> Soul Stories</h3>
+                        <p>Immerse yourself in books that heal, inspire, and offer new perspectives.</p>
+                        <span class="difficulty-badge">Social</span>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <div class="activity-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="activity-content">
+                        <h3><i class="fas fa-spa"></i> Mindful Moments</h3>
+                        <p>Guided sessions to ground yourself and stay in the present moment.</p>
+                        <span class="difficulty-badge">Calming</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="events-section">
+        <div class="container">
+            <h2 class="section-title">Upcoming Hangouts</h2>
+            <p class="section-subtitle">Good vibes, safe spaces, and great company. Join us.</p>
+
+            <div class="event-list">
+                <!-- Event 1 -->
+                <div class="event-item">
+                    <div class="event-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="event-info">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">FEB</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>The Zen Zone Sesh</h3>
+                            <p><i class="far fa-clock"></i> 6:00 PM - 7:30 PM</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Community Center, Room B</p>
+                            <p class="event-desc">A chill space to decompress, share stories, and learn grounding
+                                techniques.</p>
+                        </div>
+                        <button class="btn-primary">Register</button>
+                    </div>
+                </div>
+
+                <!-- Event 2 -->
+                <div class="event-item">
+                    <div class="event-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="event-info">
+                        <div class="event-date">
+                            <span class="day">18</span>
+                            <span class="month">FEB</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Teen Trek & Talk</h3>
+                            <p><i class="far fa-clock"></i> 4:00 PM - 5:30 PM</p>
+                            <p><i class="fas fa-map-marker-alt"></i> City Park Main Entrance</p>
+                            <p class="event-desc">Casual outdoor walk for teenagers to connect without the pressure.</p>
+                        </div>
+                        <button class="btn-primary">Register</button>
+                    </div>
+                </div>
+
+                <!-- Event 3 -->
+                <div class="event-item">
+                    <div class="event-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="event-info">
+                        <div class="event-date">
+                            <span class="day">22</span>
+                            <span class="month">FEB</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Kindness Cafe</h3>
+                            <p><i class="far fa-clock"></i> 10:00 AM - 11:30 AM</p>
+                            <p><i class="fas fa-map-marker-alt"></i> The Daily Grind Cafe</p>
+                            <p class="event-desc">Support and coffee for those caring for loved ones. You deserve a
+                                break.</p>
+                        </div>
+                        <button class="btn-primary">Register</button>
+                    </div>
+                </div>
+
+                <!-- Event 4 -->
+                <div class="event-item">
+                    <div class="event-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');">
+                    </div>
+                    <div class="event-info">
+                        <div class="event-date">
+                            <span class="day">25</span>
+                            <span class="month">FEB</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>The Good Vibes Tribe</h3>
+                            <p><i class="far fa-clock"></i> 7:00 PM - 8:30 PM</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Online (Zoom)</p>
+                            <p class="event-desc">Weekly online meetup focusing on gratitude, small wins, and uplifting
+                                chats.</p>
+                        </div>
+                        <button class="btn-primary">Join Link</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MindHaven. Connect. Heal. Thrive.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

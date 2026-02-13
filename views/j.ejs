@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Insight - MindHaven</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .topic-details {
+            padding: 4rem 0;
+        }
+
+        .topic-block {
+            margin-bottom: 4rem;
+            background: white;
+            padding: 3rem;
+            border-radius: 8px;
+            box-shadow: var(--card-shadow);
+            border-left: 8px solid var(--primary-color);
+        }
+
+        .topic-block h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .topic-icon {
+            font-size: 2rem;
+            color: var(--primary-color);
+        }
+
+        .topic-sub {
+            font-weight: 800;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            display: block;
+            color: var(--accent-color);
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .topic-p {
+            margin-bottom: 1rem;
+            color: var(--text-gray);
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .myth-fact {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 1.5rem;
+        }
+
+        .myth-fact strong {
+            color: #e74c3c;
+        }
+
+        .myth-fact span {
+            color: #27ae60;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">MINDHAVEN <span class="dot">.</span></h1>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/j" style="color: var(--primary-color);">Health Topics</a></li>
+                <li><a href="/activities">Adventures</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header" style="background: #121212;">
+        <div class="container">
+            <h1>Understand The Challenge</h1>
+            <p>Knowledge is power. Demystifying mental health, one topic at a time.</p>
+        </div>
+    </header>
+
+    <section class="topic-details">
+        <div class="container">
+
+            <!-- Depression -->
+            <div class="topic-block">
+                <h2><i class="fas fa-cloud-rain topic-icon"></i> Depression</h2>
+                <p class="topic-p">It's more than just a bad day or feeling "blue." Depression is a common but serious
+                    mood disorder that affects how you feel, think, and handle daily activities, such as sleeping,
+                    eating, or working. It can feel like a heavy weight that you can't just "snap out of."</p>
+
+                <span class="topic-sub">Biological & Environmental Factors:</span>
+                <p class="topic-p">Research suggests that depression doesn't spring from simply having too much or too
+                    little of certain brain chemicals. Rather, there are many possible causes, including faulty mood
+                    regulation by the brain, genetic vulnerability, stressful life events (abuse, conflict, death, or
+                    major changes), medications, and medical problems.</p>
+
+                <span class="topic-sub">Symptoms to Watch For:</span>
+                <ul style="list-style: disc; padding-left: 2rem; color: var(--text-gray); margin-bottom: 1rem;">
+                    <li>Persistent sad, anxious, or "empty" mood</li>
+                    <li>Feelings of hopelessness or pessimism</li>
+                    <li>Irritability</li>
+                    <li>Loss of interest or pleasure in hobbies and activities</li>
+                    <li>Decreased energy or fatigue</li>
+                </ul>
+
+                <span class="topic-sub">Actionable Coping Strategies:</span>
+                <p class="topic-p"><strong>1. Move your Body:</strong> Exercise can be as effective as medication for
+                    some. It releases endorphins and rewires the brain.<br><strong>2. Challenge Negative
+                        Thoughts:</strong> When you think "I'm a failure," ask yourself: "Is there actual evidence for
+                    this?"<br><strong>3. Seek Support:</strong> Therapy (CBT) and medication are highly effective.</p>
+
+                <div class="myth-fact">
+                    <p><strong>MYTH:</strong> Depression is a sign of weakness.</p>
+                    <p><span>FACT:</span> Depression is a medical condition, like diabetes or heart disease. It takes
+                        strength to survive it and seek help.</p>
+                </div>
+            </div>
+
+            <!-- Anxiety -->
+            <div class="topic-block" style="border-left-color: var(--accent-color);">
+                <h2><i class="fas fa-wind topic-icon" style="color: var(--accent-color);"></i> Anxiety Disorders</h2>
+                <p class="topic-p">Anxiety is your body's natural response to stress. It's a feeling of fear or
+                    apprehension about what's to come. But when feelings of intense fear and distress become
+                    overwhelming and prevent us from doing everyday activities, an anxiety disorder may be the cause.
+                </p>
+
+                <span class="topic-sub">The Science of Fear:</span>
+                <p class="topic-p">Anxiety involves the amygdala, the part of the brain that processes emotions. In
+                    anxiety disorders, the amygdala may be faster to react to "threats" (even if they aren't real
+                    threats), sending your body into fight-or-flight mode unnecessarily.</p>
+
+                <span class="topic-sub">How to avoid & Cope:</span>
+                <p class="topic-p"><strong>Grounding Techniques:</strong> Try the 5-4-3-2-1 method. Acknowledge 5 things
+                    you see, 4 you can touch, 3 you can hear, 2 you can smell, and 1 you can taste.<br><strong>Limit
+                        Stimulants:</strong> Caffeine and alcohol can aggravate anxiety.<br><strong>Worry Time:</strong>
+                    Set aside 10 minutes a day specifically to worry. When worries come up outside that time, write them
+                    down for later.</p>
+            </div>
+
+            <!-- PTSD -->
+            <div class="topic-block" style="border-left-color: #9b59b6;">
+                <h2><i class="fas fa-bolt topic-icon" style="color: #9b59b6;"></i> PTSD (Post-Traumatic Stress Disorder)
+                </h2>
+                <p class="topic-p">PTSD is a disorder that develops in some people who have experienced a shocking,
+                    scary, or dangerous event. It is natural to feel afraid during and after a traumatic situation. Fear
+                    triggers many split-second changes in the body to help defend against danger or to avoid it.</p>
+
+                <span class="topic-sub">Key Symptoms:</span>
+                <p class="topic-p">Flashbacks (reliving the trauma over and over), bad dreams, frightening thoughts,
+                    avoiding places/events that are reminders of the experience, and being easily startled or "on edge."
+                </p>
+
+                <span class="topic-sub">Healing Paths:</span>
+                <p class="topic-p">Trauma-focused psychotherapies are the most recommended treatment. This includes
+                    therapies like Cognitive Processing Therapy (CPT) and EMDR (Eye Movement Desensitization and
+                    Reprocessing).</p>
+            </div>
+
+            <!-- Burnout -->
+            <div class="topic-block" style="border-left-color: var(--secondary-color);">
+                <h2><i class="fas fa-battery-empty topic-icon" style="color: var(--secondary-color);"></i> Burnout</h2>
+                <p class="topic-p">Burnout is a state of emotional, physical, and mental exhaustion caused by excessive
+                    and prolonged stress. It occurs when you feel overwhelmed, emotionally drained, and unable to meet
+                    constant demands.</p>
+
+                <span class="topic-sub">Signs You Are Burning Out:</span>
+                <p class="topic-p">Feeling tired and drained most of the time. Lowered immunity, frequent illnesses.
+                    Sense of failure and self-doubt. Detachment, feeling alone in the world. Loss of motivation.</p>
+
+                <span class="topic-sub">Recovery:</span>
+                <p class="topic-p"><strong>The "3 R" Approach:</strong><br>1. <strong>Recognize:</strong> Watch for the
+                    warning signs.<br>2. <strong>Reverse:</strong> Undo the damage by seeking support and managing
+                    stress.<br>3. <strong>Resilience:</strong> Build your resilience to stress by taking care of your
+                    physical and emotional health.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MindHaven. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
